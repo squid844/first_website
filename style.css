@@ -1,0 +1,21 @@
+@font-face {
+    font-family: daruma ;
+    src: url(fonts/DarumadropOne-Regular.ttf);
+}
+@font-face {
+    font-family: regular ;
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
+#ralsei_dead{
+    float: left;
+    margin: 20px;
+}
+body{
+    margin: 15px;
+    background-color: #240046;
+    color: #006466;
+    font-family: regular, arial;
+    h1{
+    font-family: daruma, arial;
+    }
+}

@@ -2,29 +2,54 @@
 <html>
     <head>
         <title>
-            My first website
+            Starwalker's plane
         </title>
         <link rel="icon" type="image/png" href="images/star_icon.png">
+        <link rel="stylesheet" href="style.css">
+        
     </head>
     <body>
-        <audio controls autoplay muted id="BM" loop>
-            <source src="sounds/musics/028 Hip Shop.mp3" type="audio/mp3">
-        </audio>
+        <header>
+            <img src="images/ralsei_dead.png"
+            alt="ralsei"
+            height="100"
+            id="ralsei_dead">
+            <h1>Welcome to my lair</h1>
+        </header>
+
+        <main>
+            
+             <audio controls autoplay muted id="BM" loop>
+                <source src="sounds/musics/028 Hip Shop.mp3" type="audio/mp3">
+            </audio>
 
         <script>
             var background_music = document.getElementById("BM");
             background_music.volume = 0.1;
         </script>
         <br>
+        <br>
         <hr>
-        <pre>
-            hi everynyan
-        </pre>
+        <p>
+            hi <mark style="background-color: blueviolet;"><b>everynyan</b></mark>
+        </p>
         <!--this is a comment-->
         <a href="cookbook.html"
         target="_blank"
         title="fooda recipes">
-            Cookbook
+            <button style="font-size: 25px; background-color: blueviolet; color: aquamarine; border-radius: 10px;">Cookbook</button>
         </a>
+        <br>
+        <br>
+        <label>Question ?</label>
+        <input type="text">
+
+        </main>
+        <footer>
+            <hr>
+            author: Me<br>
+            &copy; copyright reserved<br>
+            <small><a href="mailto:blabla@bla.com">blabla@bla.com</a></small>
+        </footer>
     </body>
 </html>
