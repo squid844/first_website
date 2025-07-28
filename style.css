@@ -10,12 +10,53 @@
     float: left;
     margin: 20px;
 }
+#tenna_dance{
+    float: right;
+    margin: 20px;
+}
 body{
-    margin: 15px;
-    background-color: #240046;
-    color: #006466;
+    overflow: hidden;
+    min-height: 100vh;
+    margin: 0px;
+
+    color: #07eefe;
     font-family: regular, arial;
     h1{
     font-family: daruma, arial;
+    font-size: xxx-large;
     }
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+a:hover{color: blanchedalmond;}
+header{
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 30px;
+    background-color: rgb(2, 0, 3);
+    border-bottom: 2px solid rgb(145, 23, 134);
+}
+main{
+    background-image: url(images/Castle_Town_location.webp);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment:scroll;
+    background-size:cover;
+    div{
+ 
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 70%;
+    }
+    text-align: center;
+    
+}
+footer{
+    min-height: 50px;
+    div{
+        border-top: 2px solid rgb(145, 23, 134);
+        padding-left: 10px;
+        background-color: rgb(2, 0, 3);
+    }
+    
 }
